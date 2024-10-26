@@ -1,0 +1,22 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333; 
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a {
+    color: black; 
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.app.dark-mode .navbar a {
+    color: white; 
+ }  
